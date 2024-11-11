@@ -39,7 +39,8 @@ public class Main {
         System.out.println("Остаток от деления веса бойцов = " + (fighter2 % fighter1));
         var allTime = 640;
         var workDay = 8;
+        var employers = allTime / workDay + 94;
         System.out.println("Всего работников в компании - " + allTime / workDay);
-        System.out.println("Если в компании работает " + ((allTime / workDay) + 94) + " человек то всего " + ((allTime / workDay) + 94) * 8 + " часов");
+        System.out.println("Если в компании работает " + employers + " человек то всего " + employers * 8 + " часов");
     }
 }
